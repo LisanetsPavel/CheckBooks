@@ -1,0 +1,13 @@
+body {
+    background: url('../images/fon1.jpg') top left repeat;
+    text-align: center;
+}
+#field{
+    background: url('../images/fon_table.jpg') top left repeat;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+#menu{
+    line-height: 2;
+}

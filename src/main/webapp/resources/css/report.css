@@ -1,0 +1,54 @@
+body {
+    background: url('../images/fon1.jpg') top left repeat;
+    max-width: 100%;
+    max-height: 100%;
+
+
+}
+
+table {
+    table-layout: fixed;
+    width:100%
+}
+
+
+#table{
+    background: url('../images/fon_table.jpg') top left repeat;
+    overflow:hidden
+}
+
+tr {
+
+    text-align: center;
+}
+td{
+    word-break: break-all;
+
+
+}
+
+.table{
+    background: url('../images/fon_table.jpg') top left repeat;
+
+}
+#select{
+    margin:auto;
+    background-color: #E9E9E9;
+    width:600px
+}
+.edit {
+    border:1px solid #9E9E9E;
+    color: #000000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: Verdana;
+    background: #FFF;
+}
+#form{
+    background: url('../images/bg_form.png');
+    width: 700px;
+    margin: auto;
+    margin-top: 150px;
+}

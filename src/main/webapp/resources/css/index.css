@@ -1,0 +1,27 @@
+body {
+    background: url('../images/fon1.jpg') top left repeat;
+}
+
+#index {
+    margin: 10px 90px;
+    border: 0;
+    width: 123px;
+    height: 51px;
+    cursor:pointer;
+    vertical-align:middle
+}
+
+#label {
+    margin: 25px 108px;
+
+}
+
+#report {
+    margin: 5px 90px;
+    border: 0;
+    width: 123px;
+    height: 51px;
+    cursor:pointer;
+    vertical-align:middle
+}
+

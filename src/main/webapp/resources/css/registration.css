@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('../images/background.png') top left repeat;
+}
+
+#login_container {
+	width: 357px;
+	height: 383px;
+	margin: 100px auto;
+	background: url('../images/login_bg.png') top left no-repeat;
+}
+#registration_container {
+	width: 541px;
+	height: 735px;
+	margin: 100px auto;
+	background: url('../images/registration_bg.png') top left no-repeat;
+}
+
+#form_container {
+	width: 300px;
+	height: 200px;
+	margin: 0px auto;
+	padding-top: 80px;
+}
+
+.text_input:focus {
+	outline: 0;
+}
+
+.text_input {
+	color: #c1c1c3;
+	border: 0;
+	margin: 0px 35px 0 34px;
+	padding: 0px 0px 0px 10px;
+	width: 229px;
+	height: 32px;
+	background: url('../images/text_input.png') top left no-repeat;
+}
+
+#registration {
+	margin: 20px 80px;
+	border: 0;
+	width: 131px;
+	height: 48px;
+	background: url('../images/registration_btn.png') top left no-repeat;
+	cursor:pointer;
+}
+
+#registration:hover {opacity:0.9;}
+
+#registration:active {
+	background: url('../images/registration_btn_hov.png') top left no-repeat;
+}
+#next {
+	margin: 20px 108px;
+	border: 0;
+	width: 83px;
+	height: 30px;
+	background: url('../images/next_btn.png') top left no-repeat;
+	cursor:pointer;
+}
+
+#next:hover {opacity:0.9;}
+
+#next:active {
+	background: url('../images/next_btn_hov.png') top left no-repeat;
+}
+
+.login-text {
+	text-align:center;
+	margin:25px;
+	color:#515151;
+	font-family: 'Lobster', cursive;
+}
+.text-text {
+	text-align:center;
+	margin:17px;
+	color:#515151;
+	font-family: 'Lobster';
+}
+
+.registration-text {
+	text-align:center;
+	margin:3px;
+	color:#515151;
+	font-family: 'Lobster', cursive;
+}
+
