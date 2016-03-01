@@ -55,7 +55,7 @@ public class MainController {
         }
 
         List<String> listWorkers = bookService.parseWorkers(workers);
-        System.out.println("!!!!!!!page" + page);
+        
 
         map.addAttribute("listWorkers", listWorkers);
         map.addAttribute("pageList", firstPageList);
